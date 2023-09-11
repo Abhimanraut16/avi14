@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/blog.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Desing</title>
+    <link rel="stylesheet" href="./avimanu_files/blog.css" type="text/css">
+    <script src="./avimanu_files/jquery.min.js.download" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h1 class="logo">ITTcenter</h1>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="http://127.0.0.1:5500/index.html" title="Home">HOME</a></li>
+                        <li><a href="http://127.0.0.1:5500/course.html" title="COURSES">COURSES</a></li>
+                        <li><a href="http://127.0.0.1:5500/about.html" title="ABOUT ">ABOUT</a></li>
+        
+                        <li><a href="http://127.0.0.1:5500/contact.html" title="CONTACT">CONTACT</a></li>
+                        <li><a href="http://127.0.0.1:5500/blog.html" title="BLOG">BLOG</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input class="srch" typa="search" name="" placeholder="type to text">
+                    <a href="http://127.0.0.1:5500/blog.html#"><button class="btn">search</button></a>
+                </div>
+                <p></p>
+            </div>
+        </div>
+        
+        <header>
+            <section class="blog" id="blog">
+<div class="container">
+    <div class="title">
+        <h1>Lastest blog</h1>
+        <p>recent blogs about</p>   
+    </div>
+    <div class="blog-content">
+        <div class="blog-item">
+            <div class="blog-img">
+                <img src="./avimanu_files/11.jpg" alt="blog">
+                <span><i class="far fa-heart"></i></span>
+            </div>
+            <div class="blog-text">
+                <span>6 febuary,2023</span>
+                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    <br> Architecto ab, incidunt dolore ratione error eum temporibus expedita laborum voluptatum voluptas et ex libero porro quia, beatae, sequi aut. Nostrum, illum.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem voluptatibus nobis minus illum! Numquam ducimus officiis earum, dr
+                         saepe nisi reiciendis, velit eligendi omnis ipsa voluptate accusantium sunt sed eum quos?</p>
+                         <a href="http://127.0.0.1:5500/blog.html#">Read more</a>
+            </div>
+        </div>
+            </div>
+            <div class="blog-item">
+                <div class="blog-img">
+                    <img src="./avimanu_files/12.jpg" alt="blog">
+                    <span><i class="far fa-heart"></i></span>
+                </div>
+                <div class="blog-text">
+                    <span>6 febuary,2023</span>
+                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        <br> Architecto ab, incidunt dolore ratione error eum temporibus expedita laborum voluptatum voluptas et ex libero porro quia, beatae, sequi aut. Nostrum, illum.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem voluptatibus nobis minus illum! Numquam ducimus officiis earum, dr
+                             saepe nisi reiciendis, velit eligendi omnis ipsa voluptate accusantium sunt sed eum quos?</p>
+                             <a href="http://127.0.0.1:5500/blog.html#">Read more</a>
+    
+                </div>
+                <div class="blog-item">
+                    <div class="blog-img">
+                        <img src="./avimanu_files/13.jpg" alt="blog">
+                        <span><i class="far fa-heart"></i></span>
+                    </div>
+                    <div class="blog-text">
+                        <span>6 febuary,2023</span>
+                        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            <br> Architecto ab, incidunt dolore ratione error eum temporibus expedita laborum voluptatum voluptas et ex libero porro quia, beatae, sequi aut. Nostrum, illum.</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem voluptatibus nobis minus illum! Numquam ducimus officiis earum, dr
+                                 saepe nisi reiciendis, velit eligendi omnis ipsa voluptate accusantium sunt sed eum quos?</p>
+                                 <a href="http://127.0.0.1:5500/blog.html#">Read more</a>
+                    </div>
+    </div>
+
+</div>
+            </div></section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</header></header></body></html>
